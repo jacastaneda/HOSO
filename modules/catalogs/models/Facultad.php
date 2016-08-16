@@ -50,10 +50,10 @@ class Facultad extends \yii\db\ActiveRecord
     {
         return [
             'IdFacultad' => Yii::t('app', 'Id Facultad'),
-            'Nombre' => Yii::t('app', 'Nombre'),
+            'Nombre' => Yii::t('app', 'Nombre de facultad'),
             'Descripcion' => Yii::t('app', 'Descripcion'),
             'NombreCorto' => Yii::t('app', 'Nombre Corto'),
-            'IdUniversidad' => Yii::t('app', 'Id Universidad'),
+            'IdUniversidad' => Yii::t('app', 'Universidad'),
             'EstadoRegistro' => Yii::t('app', 'Estado Registro'),
         ];
     }

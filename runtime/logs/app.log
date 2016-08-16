@@ -16634,3 +16634,2882 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1471309987.913
     'REQUEST_TIME' => 1471309987
 ]
+2016-08-16 01:55:54 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:55:48 [127.0.0.1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '59206'
+    'REDIRECT_URL' => '/catalogs/universidad/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312547.83
+    'REQUEST_TIME' => 1471312547
+]
+2016-08-16 01:55:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:55:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '59206'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312557.23
+    'REQUEST_TIME' => 1471312557
+]
+2016-08-16 01:55:59 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:55:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'tag' => '57b272ad38e43'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406; _csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '59206'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=57b272ad38e43'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=57b272ad38e43'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=57b272ad38e43'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312559.274
+    'REQUEST_TIME' => 1471312559
+]
+2016-08-16 01:57:32 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:57:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406; _csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60062'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312652.186
+    'REQUEST_TIME' => 1471312652
+]
+2016-08-16 01:57:32 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:57:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'tag' => '57b2730c2f4d1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406; _csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60062'
+    'REDIRECT_URL' => '/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=57b2730c2f4d1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=57b2730c2f4d1'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=57b2730c2f4d1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312652.256
+    'REQUEST_TIME' => 1471312652
+]
+2016-08-16 01:57:41 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:57:41 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'anU3Rm1iUWNeN2EPMi0jDwMfYQIoFGgJJCFxCRc9NDMlHEMQOhsVIg=='
+    'login-form' => [
+        'login' => 'jacastaneda'
+        'password' => 'jcastaneda'
+        'rememberMe' => '0'
+    ]
+    'ajax' => 'login-form'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '181'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://desarrollo.hosouees'
+    'HTTP_X_CSRF_TOKEN' => 'anU3Rm1iUWNeN2EPMi0jDwMfYQIoFGgJJCFxCRc9NDMlHEMQOhsVIg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406; _csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60064'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312661.266
+    'REQUEST_TIME' => 1471312661
+]
+2016-08-16 01:57:54 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:57:54 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'anU3Rm1iUWNeN2EPMi0jDwMfYQIoFGgJJCFxCRc9NDMlHEMQOhsVIg=='
+    'login-form' => [
+        'login' => 'jcastaneda'
+        'password' => 'jcastaneda'
+        'rememberMe' => '0'
+    ]
+    'ajax' => 'login-form'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '180'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://desarrollo.hosouees'
+    'HTTP_X_CSRF_TOKEN' => 'anU3Rm1iUWNeN2EPMi0jDwMfYQIoFGgJJCFxCRc9NDMlHEMQOhsVIg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406; _csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60074'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312674.038
+    'REQUEST_TIME' => 1471312674
+]
+2016-08-16 01:57:54 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:57:54 [127.0.0.1][1][-][info][application] $_POST = [
+    '_csrf' => 'anU3Rm1iUWNeN2EPMi0jDwMfYQIoFGgJJCFxCRc9NDMlHEMQOhsVIg=='
+    'login-form' => [
+        'login' => 'jcastaneda'
+        'password' => 'jcastaneda'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0pdbp92i8961oq5a0ajohra406'
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '164'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://desarrollo.hosouees'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=0pdbp92i8961oq5a0ajohra406; _csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60074'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312674.803
+    'REQUEST_TIME' => 1471312674
+]
+2016-08-16 01:57:55 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:57:55 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60074'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312675.513
+    'REQUEST_TIME' => 1471312675
+]
+2016-08-16 01:58:08 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:08 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60076'
+    'REDIRECT_URL' => '/user/manager'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/manager'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312688.326
+    'REQUEST_TIME' => 1471312688
+]
+2016-08-16 01:58:12 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:12 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/manager'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60076'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312692.195
+    'REQUEST_TIME' => 1471312692
+]
+2016-08-16 01:58:46 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:46 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312726.324
+    'REQUEST_TIME' => 1471312726
+]
+2016-08-16 01:58:48 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:48 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312728.139
+    'REQUEST_TIME' => 1471312728
+]
+2016-08-16 01:58:49 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:49 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312729.262
+    'REQUEST_TIME' => 1471312729
+]
+2016-08-16 01:58:50 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:50 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312730.44
+    'REQUEST_TIME' => 1471312730
+]
+2016-08-16 01:58:51 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:51 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/carrera'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/carrera'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312731.013
+    'REQUEST_TIME' => 1471312731
+]
+2016-08-16 01:58:51 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:51 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/carrera'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/institucion'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/institucion'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312731.903
+    'REQUEST_TIME' => 1471312731
+]
+2016-08-16 01:58:52 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:52 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/institucion'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/institucion'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/institucion'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312732.642
+    'REQUEST_TIME' => 1471312732
+]
+2016-08-16 01:58:53 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:53 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/institucion'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/estados-proyecto'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/estados-proyecto'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312733.293
+    'REQUEST_TIME' => 1471312733
+]
+2016-08-16 01:58:54 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 01:58:54 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/estados-proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60082'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312734.072
+    'REQUEST_TIME' => 1471312734
+]
+2016-08-16 02:02:20 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 02:02:20 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60088'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312940.675
+    'REQUEST_TIME' => 1471312940
+]
+2016-08-16 02:02:23 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 02:02:23 [127.0.0.1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'cVMwQkRHbnlFEWYLGwgcFRg5ZgYBMVcTPwd2DT4YCyk.OkQUEz4qOA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60088'
+    'REDIRECT_URL' => '/catalogs/universidad/view'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/catalogs/universidad/view?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312943.308
+    'REQUEST_TIME' => 1471312943
+]
+2016-08-16 02:02:49 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 02:02:49 [127.0.0.1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'cVMwQkRHbnlFEWYLGwgcFRg5ZgYBMVcTPwd2DT4YCyk.OkQUEz4qOA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60100'
+    'REDIRECT_URL' => '/catalogs/universidad/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/catalogs/universidad/update?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312969.128
+    'REQUEST_TIME' => 1471312969
+]
+2016-08-16 02:03:11 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/html/basicyii/messages/es/app.php
+2016-08-16 02:03:11 [127.0.0.1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'cVMwQkRHbnlFEWYLGwgcFRg5ZgYBMVcTPwd2DT4YCyk.OkQUEz4qOA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60104'
+    'REDIRECT_URL' => '/catalogs/universidad/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/catalogs/universidad/update?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471312991.557
+    'REQUEST_TIME' => 1471312991
+]
+2016-08-16 02:16:31 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][yii\base\ErrorException:2] yii\base\ErrorException: Missing argument 2 for yii\BaseYii::t(), called in /var/www/html/basicyii/modules/catalogs/views/universidad/index.php on line 43 and defined in /var/www/html/basicyii/vendor/yiisoft/yii2/BaseYii.php:498
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/BaseYii.php(498): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/var/www/html/b...', 498, Array)
+#1 /var/www/html/basicyii/modules/catalogs/views/universidad/index.php(43): yii\BaseYii::t('Resize table co...')
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#6 /var/www/html/basicyii/modules/catalogs/controllers/UniversidadController.php(46): yii\base\Controller->render('index', Array)
+#7 [internal function]: app\modules\catalogs\controllers\UniversidadController->actionIndex()
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/univer...', Array)
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2016-08-16 02:16:31 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60178'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471313791.071
+    'REQUEST_TIME' => 1471313791
+]
+2016-08-16 02:19:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][Error] Error: Class 'Y' not found in /var/www/html/basicyii/modules/catalogs/views/universidad/index.php:45
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#4 /var/www/html/basicyii/modules/catalogs/controllers/UniversidadController.php(46): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\modules\catalogs\controllers\UniversidadController->actionIndex()
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/univer...', Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-08-16 02:19:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60196'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471313969.932
+    'REQUEST_TIME' => 1471313969
+]
+2016-08-16 02:19:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-16 02:19:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60196'
+    'REDIRECT_URL' => '/catalogs/universidad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471313969.932
+    'REQUEST_TIME' => 1471313969
+]
+2016-08-16 02:33:17 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][ParseError] ParseError: syntax error, unexpected '?>' in /var/www/html/basicyii/modules/catalogs/views/universidad/_form.php:30
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, NULL)
+#2 /var/www/html/basicyii/modules/catalogs/views/universidad/create.php(12): yii\base\View->render('_form', Array)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/web/View.php(210): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(47): yii\web\View->renderAjax('create', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#7 /var/www/html/basicyii/modules/catalogs/controllers/UniversidadController.php(96): yii\web\Controller->renderAjax('create', Array)
+#8 [internal function]: app\modules\catalogs\controllers\UniversidadController->actionCreate()
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/univer...', Array)
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2016-08-16 02:33:17 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'TlRfNDRkVl96Fgl9ayskMyc.CXBxEm81AAAZe047Mw8BPStiYx0SHg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60762'
+    'REDIRECT_URL' => '/catalogs/universidad/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471314797.936
+    'REQUEST_TIME' => 1471314797
+]
+2016-08-16 02:33:17 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2016-08-16 02:33:17 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'TlRfNDRkVl96Fgl9ayskMyc.CXBxEm81AAAZe047Mw8BPStiYx0SHg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '60762'
+    'REDIRECT_URL' => '/catalogs/universidad/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/universidad/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471314797.936
+    'REQUEST_TIME' => 1471314797
+]
+2016-08-16 02:50:25 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][ParseError] ParseError: syntax error, unexpected ']' in /var/www/html/basicyii/modules/catalogs/views/facultad/view.php:16
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/web/View.php(210): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(47): yii\web\View->renderAjax('view', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#3 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(66): yii\web\Controller->renderAjax('view', Array)
+#4 [internal function]: app\modules\catalogs\controllers\FacultadController->actionView('4')
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('view', Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-08-16 02:50:25 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'WVZMZ0VOWnJtFBouGgEoHjA8GiMAOGMYFwIKKD8RPyIWPzgxEjceMw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '32854'
+    'REDIRECT_URL' => '/catalogs/facultad/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/catalogs/facultad/view?id=4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471315825.54
+    'REQUEST_TIME' => 1471315825
+]
+2016-08-16 02:50:25 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2016-08-16 02:50:25 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'WVZMZ0VOWnJtFBouGgEoHjA8GiMAOGMYFwIKKD8RPyIWPzgxEjceMw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '32854'
+    'REDIRECT_URL' => '/catalogs/facultad/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/catalogs/facultad/view?id=4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471315825.54
+    'REQUEST_TIME' => 1471315825
+]
+2016-08-16 02:54:21 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use app\helpers\CrudHelper as CrudHelper because the name is already in use in /var/www/html/basicyii/modules/catalogs/views/facultad/view.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-16 02:54:21 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'WVZMZ0VOWnJtFBouGgEoHjA8GiMAOGMYFwIKKD8RPyIWPzgxEjceMw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '32952'
+    'REDIRECT_URL' => '/catalogs/facultad/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/catalogs/facultad/view?id=4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471316061.402
+    'REQUEST_TIME' => 1471316061
+]
+2016-08-16 02:56:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][Error] Error: Class 'CrudHelper' not found in /var/www/html/basicyii/modules/catalogs/views/universidad/view.php:24
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/web/View.php(210): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(47): yii\web\View->renderAjax('view', Array, Object(app\modules\catalogs\controllers\UniversidadController))
+#4 /var/www/html/basicyii/modules/catalogs/controllers/UniversidadController.php(64): yii\web\Controller->renderAjax('view', Array)
+#5 [internal function]: app\modules\catalogs\controllers\UniversidadController->actionView('1')
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('view', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/univer...', Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-08-16 02:56:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'eDZNendjVW5MdBszKCwnAhFcGz4yFWwENmILNQ08MD43XzksIBoRLw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '32968'
+    'REDIRECT_URL' => '/catalogs/universidad/view'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/catalogs/universidad/view?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471316189.447
+    'REQUEST_TIME' => 1471316189
+]
+2016-08-16 02:56:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-16 02:56:29 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'eDZNendjVW5MdBszKCwnAhFcGz4yFWwENmILNQ08MD43XzksIBoRLw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/universidad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '32968'
+    'REDIRECT_URL' => '/catalogs/universidad/view'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/catalogs/universidad/view?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471316189.447
+    'REQUEST_TIME' => 1471316189
+]
+2016-08-16 03:12:56 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in /var/www/html/basicyii/modules/catalogs/views/institucion/_columns.php:32
+Stack trace:
+#0 /var/www/html/basicyii/modules/catalogs/views/institucion/_columns.php(32): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/html/b...', 32, Array)
+#1 /var/www/html/basicyii/modules/catalogs/views/institucion/index.php(26): require('/var/www/html/b...')
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\InstitucionController))
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\InstitucionController))
+#6 /var/www/html/basicyii/modules/catalogs/controllers/InstitucionController.php(46): yii\base\Controller->render('index', Array)
+#7 [internal function]: app\modules\catalogs\controllers\InstitucionController->actionIndex()
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/instit...', Array)
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2016-08-16 03:12:56 [127.0.0.1][1][37ch0qlibd3s4uftmu7rvaurq7][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => '37ch0qlibd3s4uftmu7rvaurq7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/universidad/index'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/institucion'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=37ch0qlibd3s4uftmu7rvaurq7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '33006'
+    'REDIRECT_URL' => '/catalogs/institucion'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/institucion'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471317176.301
+    'REQUEST_TIME' => 1471317176
+]
+2016-08-16 04:47:39 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][ParseError] ParseError: syntax error, unexpected ')' in /var/www/html/basicyii/modules/catalogs/views/estados-proyecto/index.php:13
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\EstadosProyectoController))
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\EstadosProyectoController))
+#3 /var/www/html/basicyii/modules/catalogs/controllers/EstadosProyectoController.php(46): yii\base\Controller->render('index', Array)
+#4 [internal function]: app\modules\catalogs\controllers\EstadosProyectoController->actionIndex()
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/estado...', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-08-16 04:47:39 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/estados-proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '33812'
+    'REDIRECT_URL' => '/catalogs/estados-proyecto'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/estados-proyecto'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471322859.907
+    'REQUEST_TIME' => 1471322859
+]
+2016-08-16 04:47:40 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(ParseError))
+#6 {main}
+2016-08-16 04:47:39 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/estados-proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '33812'
+    'REDIRECT_URL' => '/catalogs/estados-proyecto'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/estados-proyecto'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471322859.907
+    'REQUEST_TIME' => 1471322859
+]
+2016-08-16 05:10:38 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][Error] Error: Class 'ArrayHelper' not found in /var/www/html/basicyii/modules/catalogs/views/facultad/_columns.php:34
+Stack trace:
+#0 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(26): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#5 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-08-16 05:10:38 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad?FacultadSearch%5BIdFacultad%5D=&FacultadSearch%5BNombre%5D=&FacultadSearch%5BDescripcion%5D=&FacultadSearch%5BNombreCorto%5D=&FacultadSearch%5BEstadoRegistro%5D=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34128'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324238.027
+    'REQUEST_TIME' => 1471324238
+]
+2016-08-16 05:10:38 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-16 05:10:38 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad?FacultadSearch%5BIdFacultad%5D=&FacultadSearch%5BNombre%5D=&FacultadSearch%5BDescripcion%5D=&FacultadSearch%5BNombreCorto%5D=&FacultadSearch%5BEstadoRegistro%5D=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34128'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324238.027
+    'REQUEST_TIME' => 1471324238
+]
+2016-08-16 05:12:44 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/var/www/html/b...', 104, Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(104): htmlspecialchars(Object(app\modules\catalogs\models\Universidad), 11, 'UTF-8', true)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(351): yii\helpers\BaseHtml::encode(Object(app\modules\catalogs\models\Universidad))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\modules\catalogs\models\Universidad))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(316): call_user_func_array(Array, Array)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\i18n\Formatter->format(Object(app\modules\catalogs\models\Universidad), 'text')
+#6 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(504): kartik\grid\DataColumn->renderDataCell(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#9 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(735): yii\grid\GridView->renderTableBody()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(344): kartik\grid\GridView->renderTableBody()
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#17 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(706): yii\grid\GridView->run()
+#18 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Widget.php(102): kartik\grid\GridView->run()
+#19 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(56): yii\base\Widget::widget(Array)
+#20 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#21 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#22 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#23 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#24 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#26 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#27 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#28 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#29 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#30 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#32 {main}
+2016-08-16 05:12:44 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34180'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324364.355
+    'REQUEST_TIME' => 1471324364
+]
+2016-08-16 05:14:57 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][Error] Error: Class 'Html' not found in /var/www/html/basicyii/modules/catalogs/views/facultad/_columns.php:37
+Stack trace:
+#0 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(26): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#5 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-08-16 05:14:57 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34196'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324497.562
+    'REQUEST_TIME' => 1471324497
+]
+2016-08-16 05:14:57 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-16 05:14:57 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34196'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324497.562
+    'REQUEST_TIME' => 1471324497
+]
+2016-08-16 05:15:24 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\modules\catalogs\models\FacultadSearch::idUniversidad.Nombre in /var/www/html/basicyii/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('idUniversidad.N...')
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('idUniversidad.N...')
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(1651): yii\helpers\BaseHtml::getAttributeValue(Object(app\modules\catalogs\models\FacultadSearch), 'idUniversidad.N...')
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(1495): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\modules\catalogs\models\FacultadSearch), 'idUniversidad.N...', Array, Array)
+#4 /var/www/html/basicyii/modules/catalogs/views/facultad/_columns.php(38): yii\helpers\BaseHtml::activeDropDownList(Object(app\modules\catalogs\models\FacultadSearch), 'idUniversidad.N...', Array, Array)
+#5 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(26): require('/var/www/html/b...')
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#10 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#11 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2016-08-16 05:15:24 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34200'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324524.025
+    'REQUEST_TIME' => 1471324524
+]
+2016-08-16 05:15:54 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/var/www/html/b...', 104, Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(104): htmlspecialchars(Object(app\modules\catalogs\models\Universidad), 11, 'UTF-8', true)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(351): yii\helpers\BaseHtml::encode(Object(app\modules\catalogs\models\Universidad))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\modules\catalogs\models\Universidad))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(316): call_user_func_array(Array, Array)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\i18n\Formatter->format(Object(app\modules\catalogs\models\Universidad), 'text')
+#6 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(504): kartik\grid\DataColumn->renderDataCell(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#9 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(735): yii\grid\GridView->renderTableBody()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(344): kartik\grid\GridView->renderTableBody()
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#17 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(706): yii\grid\GridView->run()
+#18 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Widget.php(102): kartik\grid\GridView->run()
+#19 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(56): yii\base\Widget::widget(Array)
+#20 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#21 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#22 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#23 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#24 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#26 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#27 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#28 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#29 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#30 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#32 {main}
+2016-08-16 05:15:54 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34212'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324554.317
+    'REQUEST_TIME' => 1471324554
+]
+2016-08-16 05:16:18 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/var/www/html/b...', 104, Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(104): htmlspecialchars(Object(app\modules\catalogs\models\Universidad), 11, 'UTF-8', true)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(351): yii\helpers\BaseHtml::encode(Object(app\modules\catalogs\models\Universidad))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\modules\catalogs\models\Universidad))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(316): call_user_func_array(Array, Array)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\i18n\Formatter->format(Object(app\modules\catalogs\models\Universidad), 'text')
+#6 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(504): kartik\grid\DataColumn->renderDataCell(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#9 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(735): yii\grid\GridView->renderTableBody()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(344): kartik\grid\GridView->renderTableBody()
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#17 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(706): yii\grid\GridView->run()
+#18 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Widget.php(102): kartik\grid\GridView->run()
+#19 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(56): yii\base\Widget::widget(Array)
+#20 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#21 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#22 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#23 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#24 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#26 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#27 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#28 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#29 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#30 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#32 {main}
+2016-08-16 05:16:18 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34220'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324578.372
+    'REQUEST_TIME' => 1471324578
+]
+2016-08-16 05:16:19 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/var/www/html/b...', 104, Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(104): htmlspecialchars(Object(app\modules\catalogs\models\Universidad), 11, 'UTF-8', true)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(351): yii\helpers\BaseHtml::encode(Object(app\modules\catalogs\models\Universidad))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\modules\catalogs\models\Universidad))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(316): call_user_func_array(Array, Array)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\i18n\Formatter->format(Object(app\modules\catalogs\models\Universidad), 'text')
+#6 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(504): kartik\grid\DataColumn->renderDataCell(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#9 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(735): yii\grid\GridView->renderTableBody()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(344): kartik\grid\GridView->renderTableBody()
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#17 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(706): yii\grid\GridView->run()
+#18 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Widget.php(102): kartik\grid\GridView->run()
+#19 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(56): yii\base\Widget::widget(Array)
+#20 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#21 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#22 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#23 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#24 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#26 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#27 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#28 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#29 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#30 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#32 {main}
+2016-08-16 05:16:19 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34222'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324579.859
+    'REQUEST_TIME' => 1471324579
+]
+2016-08-16 05:16:21 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/var/www/html/b...', 104, Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseHtml.php(104): htmlspecialchars(Object(app\modules\catalogs\models\Universidad), 11, 'UTF-8', true)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(351): yii\helpers\BaseHtml::encode(Object(app\modules\catalogs\models\Universidad))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\modules\catalogs\models\Universidad))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/i18n/Formatter.php(316): call_user_func_array(Array, Array)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\i18n\Formatter->format(Object(app\modules\catalogs\models\Universidad), 'text')
+#6 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(504): kartik\grid\DataColumn->renderDataCell(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#9 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(735): yii\grid\GridView->renderTableBody()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(344): kartik\grid\GridView->renderTableBody()
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#17 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(706): yii\grid\GridView->run()
+#18 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Widget.php(102): kartik\grid\GridView->run()
+#19 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(56): yii\base\Widget::widget(Array)
+#20 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#21 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#22 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#23 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#24 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#26 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#27 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#28 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#29 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#30 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#32 {main}
+2016-08-16 05:16:20 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34224'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324580.991
+    'REQUEST_TIME' => 1471324580
+]
+2016-08-16 05:16:34 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\modules\catalogs\models\Universidad::idUniversidad in /var/www/html/basicyii/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('idUniversidad')
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(204): yii\db\BaseActiveRecord->__get('idUniversidad')
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(209): yii\helpers\BaseArrayHelper::getValue(Object(app\modules\catalogs\models\Universidad), 'idUniversidad')
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\grid\DataColumn->getDataCellValue(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#4 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/DataColumn.php(154): yii\grid\DataColumn->renderDataCellContent(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(504): kartik\grid\DataColumn->renderDataCell(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(app\modules\catalogs\models\Facultad), 4, 0)
+#7 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(735): yii\grid\GridView->renderTableBody()
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(344): kartik\grid\GridView->renderTableBody()
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class="pan...')
+#14 /var/www/html/basicyii/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#15 /var/www/html/basicyii/vendor/kartik-v/yii2-grid/GridView.php(706): yii\grid\GridView->run()
+#16 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Widget.php(102): kartik\grid\GridView->run()
+#17 /var/www/html/basicyii/modules/catalogs/views/facultad/index.php(56): yii\base\Widget::widget(Array)
+#18 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#19 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#20 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#21 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\catalogs\controllers\FacultadController))
+#22 /var/www/html/basicyii/modules/catalogs/controllers/FacultadController.php(48): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\modules\catalogs\controllers\FacultadController->actionIndex()
+#24 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#25 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#26 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#27 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/facult...', Array)
+#28 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#30 {main}
+2016-08-16 05:16:34 [127.0.0.1][1][aeqam8fee275frslj1d07elsp3][info][application] $_COOKIE = [
+    '_csrf' => '629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4BVI_OrlijVDEv9jNTFOz_ePOitVWyDA\";}'
+    'PHPSESSID' => 'aeqam8fee275frslj1d07elsp3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/catalogs/proyecto'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/facultad'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=629b93de3aa377424b843106bfb205a602cee9761e1626b296653c040269ce06a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224BVI_OrlijVDEv9jNTFOz_ePOitVWyDA%22%3B%7D; PHPSESSID=aeqam8fee275frslj1d07elsp3'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '34228'
+    'REDIRECT_URL' => '/catalogs/facultad'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/facultad'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471324594.642
+    'REQUEST_TIME' => 1471324594
+]

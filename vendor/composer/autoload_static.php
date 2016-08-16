@@ -34,9 +34,11 @@ class ComposerStaticInit491b57259d26ede26f33eef9dd2178da
         array (
             'kartik\\popover\\' => 15,
             'kartik\\plugins\\popover\\' => 23,
+            'kartik\\plugins\\depdrop\\' => 23,
             'kartik\\mpdf\\' => 12,
             'kartik\\grid\\' => 12,
             'kartik\\editable\\' => 16,
+            'kartik\\depdrop\\' => 15,
             'kartik\\base\\' => 12,
         ),
         'j' => 
@@ -116,6 +118,10 @@ class ComposerStaticInit491b57259d26ede26f33eef9dd2178da
         array (
             0 => __DIR__ . '/..' . '/kartik-v/bootstrap-popover-x',
         ),
+        'kartik\\plugins\\depdrop\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/dependent-dropdown',
+        ),
         'kartik\\mpdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-mpdf',
@@ -127,6 +133,10 @@ class ComposerStaticInit491b57259d26ede26f33eef9dd2178da
         'kartik\\editable\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-editable',
+        ),
+        'kartik\\depdrop\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-depdrop',
         ),
         'kartik\\base\\' => 
         array (

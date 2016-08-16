@@ -40,17 +40,17 @@ CrudAsset::register($this);
             'panel' => [
                 'type' => 'primary', 
                 'heading' => '<i class="glyphicon glyphicon-list"></i> Listado de universidades',
-                'before'=>'<em>* Cambie el tamaño de las columnas arrastrando como en una hoja de calculo.</em>',
+                'before'=>'<em>* '.Yii::t('app','Resize table columns just like a spreadsheet by dragging the column edges.').'</em>',
                 'after'=>BulkButtonWidget::widget([
-                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Eliminar todas',
+                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.Yii::t('app', 'Delete all'),
                                 ["bulk-delete"] ,
                                 [
                                     "class"=>"btn btn-danger btn-xs",
                                     'role'=>'modal-remote-bulk',
                                     'data-confirm'=>false, 'data-method'=>false,// for overide yii data api
                                     'data-request-method'=>'post',
-                                    'data-confirm-title'=>'Está seguro?',
-                                    'data-confirm-message'=>'Está seguro de eliminar esta universidad?'
+                                    'data-confirm-title'=>Yii::t('app','Are you sure?'),
+                                    'data-confirm-message'=>Yii::t('app','Are you sure want to delete this item?')
                                 ]),
                         ]).                        
                         '<div class="clearfix"></div>',

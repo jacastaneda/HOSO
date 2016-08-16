@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use app\helpers\CrudHelper;
 
 /* @var $this yii\web\View */
 /* @var $model app\modules\catalogs\models\Carrera */
@@ -17,7 +18,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'IdFacultad')->textInput() ?>
 
-    <?= $form->field($model, 'EstadoRegistro')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'EstadoRegistro')->dropDownList(CrudHelper::getEstadosRegistro(), 
+             ['prompt'=>'- Seleccione el estado del registro-']) ?>
 
   
 	<?php if (!Yii::$app->request->isAjax){ ?>

@@ -1,7 +1,7 @@
 <?php
 
 use yii\widgets\DetailView;
-
+use app\helpers\CrudHelper;
 /* @var $this yii\web\View */
 /* @var $model app\modules\catalogs\models\EstadosProyecto */
 ?>
@@ -10,9 +10,12 @@ use yii\widgets\DetailView;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'IdEstadoProyecto',
+//            'IdEstadoProyecto',
             'EstadoProyecto',
-            'EstadoRegistro',
+            [
+                'value' => CrudHelper::getEstadosRegistroLabel($model->EstadoRegistro),
+                'label'=> 'EstadoRegistro',
+            ],  
         ],
     ]) ?>
 

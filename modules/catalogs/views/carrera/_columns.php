@@ -1,5 +1,6 @@
 <?php
 use yii\helpers\Url;
+use app\helpers\CrudHelper;
 
 return [
     [
@@ -27,8 +28,13 @@ return [
         'attribute'=>'IdFacultad',
     ],
     [
-        'class'=>'\kartik\grid\DataColumn',
+        'class' => '\kartik\grid\DataColumn',
         'attribute'=>'EstadoRegistro',
+        'value' => function ($data) {
+            return CrudHelper::getEstadosRegistroLabel($data->EstadoRegistro); // $data['name'] for array data, e.g. using SqlDataProvider.
+        },        
+        'label'=> 'Estado Registro',
+        'filter' => ['0' => 'Inactivo', '1' => 'Activo'],  
     ],
     [
         'class' => 'kartik\grid\ActionColumn',
@@ -37,14 +43,14 @@ return [
         'urlCreator' => function($action, $model, $key, $index) { 
                 return Url::to([$action,'id'=>$key]);
         },
-        'viewOptions'=>['role'=>'modal-remote','title'=>'View','data-toggle'=>'tooltip'],
-        'updateOptions'=>['role'=>'modal-remote','title'=>'Update', 'data-toggle'=>'tooltip'],
-        'deleteOptions'=>['role'=>'modal-remote','title'=>'Delete', 
+        'viewOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'View'),'data-toggle'=>'tooltip'],
+        'updateOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'Update'), 'data-toggle'=>'tooltip'],
+        'deleteOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'Delete'), 
                           'data-confirm'=>false, 'data-method'=>false,// for overide yii data api
                           'data-request-method'=>'post',
                           'data-toggle'=>'tooltip',
-                          'data-confirm-title'=>'Are you sure?',
-                          'data-confirm-message'=>'Are you sure want to delete this item'], 
+                          'data-confirm-title'=>Yii::t('app','Are you sure?'),
+                          'data-confirm-message'=>Yii::t('app','Are you sure want to delete this item?')],
     ],
 
 ];   
