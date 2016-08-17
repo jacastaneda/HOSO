@@ -10,6 +10,7 @@ use Yii;
  * @property integer $IdProyecto
  * @property string $NombreProyecto
  * @property integer $HorasSolicitadas
+ * @property double $HorasSocialesXhora
  * @property string $Ubicacion
  * @property string $FechaIni
  * @property string $FechaFin
@@ -20,7 +21,6 @@ use Yii;
  * @property string $EstadoRegistro
  *
  * @property Comunicacion[] $comunicacions
- * @property Facultad[] $facultads
  * @property Horas[] $horas
  * @property Persona[] $idPersonas
  * @property EstadosProyecto $idEstadoProyecto
@@ -44,6 +44,7 @@ class Proyecto extends \yii\db\ActiveRecord
         return [
             [['NombreProyecto', 'Ubicacion', 'IdInstitucion', 'IdEstadoProyecto', 'NumeroPersonas'], 'required'],
             [['HorasSolicitadas', 'IdInstitucion', 'IdEstadoProyecto', 'IdPersonaAsesor', 'NumeroPersonas'], 'integer'],
+            [['HorasSocialesXhora'], 'number'],
             [['FechaIni', 'FechaFin'], 'safe'],
             [['NombreProyecto', 'Ubicacion'], 'string', 'max' => 150],
             [['EstadoRegistro'], 'string', 'max' => 1],
@@ -61,6 +62,7 @@ class Proyecto extends \yii\db\ActiveRecord
             'IdProyecto' => Yii::t('app', 'Id Proyecto'),
             'NombreProyecto' => Yii::t('app', 'Nombre Proyecto'),
             'HorasSolicitadas' => Yii::t('app', 'Horas Solicitadas'),
+            'HorasSocialesXhora' => Yii::t('app', 'Horas Sociales Xhora'),
             'Ubicacion' => Yii::t('app', 'Ubicacion'),
             'FechaIni' => Yii::t('app', 'Fecha Ini'),
             'FechaFin' => Yii::t('app', 'Fecha Fin'),
@@ -77,15 +79,7 @@ class Proyecto extends \yii\db\ActiveRecord
      */
     public function getComunicacions()
     {
-        return $this->hasMany(Comunicacion::className(), ['IdProyecto' => 'IdProyecto'])->inverseOf('idProyecto');
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getFacultads()
-    {
-        return $this->hasMany(Facultad::className(), ['IdUniversidad' => 'IdProyecto'])->inverseOf('idUniversidad0');
+        return $this->hasMany(Comunicacion::className(), ['IdProyecto' => 'IdProyecto']);
     }
 
     /**
@@ -93,7 +87,7 @@ class Proyecto extends \yii\db\ActiveRecord
      */
     public function getHoras()
     {
-        return $this->hasMany(Horas::className(), ['IdProyecto' => 'IdProyecto'])->inverseOf('idProyecto');
+        return $this->hasMany(Horas::className(), ['IdProyecto' => 'IdProyecto']);
     }
 
     /**
@@ -109,7 +103,7 @@ class Proyecto extends \yii\db\ActiveRecord
      */
     public function getIdEstadoProyecto()
     {
-        return $this->hasOne(EstadosProyecto::className(), ['IdEstadoProyecto' => 'IdEstadoProyecto'])->inverseOf('proyectos');
+        return $this->hasOne(EstadosProyecto::className(), ['IdEstadoProyecto' => 'IdEstadoProyecto']);
     }
 
     /**
@@ -117,7 +111,7 @@ class Proyecto extends \yii\db\ActiveRecord
      */
     public function getIdInstitucion()
     {
-        return $this->hasOne(Institucion::className(), ['IdInstitucion' => 'IdInstitucion'])->inverseOf('proyectos');
+        return $this->hasOne(Institucion::className(), ['IdInstitucion' => 'IdInstitucion']);
     }
 
     /**

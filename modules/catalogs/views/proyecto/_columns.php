@@ -1,5 +1,9 @@
 <?php
 use yii\helpers\Url;
+use yii\helpers\Html;
+use app\helpers\CrudHelper;
+use yii\helpers\ArrayHelper;
+use app\modules\catalogs\models\EstadosProyecto;
 
 return [
     [
@@ -30,6 +34,15 @@ return [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'FechaIni',
     ],
+    [
+        'class' => '\kartik\grid\DataColumn',
+        'attribute'=>'EstadoRegistro',
+        'value' => function ($data) {
+            return CrudHelper::getEstadosRegistroLabel($data->EstadoRegistro); // $data['name'] for array data, e.g. using SqlDataProvider.
+        },        
+        'label'=> 'Estado Registro',
+        'filter' => ['0' => 'Inactivo', '1' => 'Activo'],  
+    ],    
     // [
         // 'class'=>'\kartik\grid\DataColumn',
         // 'attribute'=>'FechaFin',
@@ -38,10 +51,12 @@ return [
         // 'class'=>'\kartik\grid\DataColumn',
         // 'attribute'=>'IdInstitucion',
     // ],
-    // [
-        // 'class'=>'\kartik\grid\DataColumn',
-        // 'attribute'=>'IdEstadoProyecto',
-    // ],
+    [
+        'class'=>'\kartik\grid\DataColumn',
+        'attribute'=>'idEstadoProyecto.EstadoProyecto',
+        'label'=>'Estado del proyecto',
+        'filter' => Html::activeDropDownList($searchModel, 'IdEstadoProyecto', ArrayHelper::map(EstadosProyecto::find()->asArray()->where(['EstadoRegistro' => '1'])->all(), 'IdEstadoProyecto', 'EstadoProyecto'),['class'=>'form-control','prompt' => 'Seleccione estado del proyecto']),
+    ],
     // [
         // 'class'=>'\kartik\grid\DataColumn',
         // 'attribute'=>'IdPersonaAsesor',
@@ -61,14 +76,14 @@ return [
         'urlCreator' => function($action, $model, $key, $index) { 
                 return Url::to([$action,'id'=>$key]);
         },
-        'viewOptions'=>['role'=>'modal-remote','title'=>'View','data-toggle'=>'tooltip'],
-        'updateOptions'=>['role'=>'modal-remote','title'=>'Update', 'data-toggle'=>'tooltip'],
-        'deleteOptions'=>['role'=>'modal-remote','title'=>'Delete', 
+        'viewOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'View'),'data-toggle'=>'tooltip'],
+        'updateOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'Update'), 'data-toggle'=>'tooltip'],
+        'deleteOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'Delete'), 
                           'data-confirm'=>false, 'data-method'=>false,// for overide yii data api
                           'data-request-method'=>'post',
                           'data-toggle'=>'tooltip',
-                          'data-confirm-title'=>'Are you sure?',
-                          'data-confirm-message'=>'Are you sure want to delete this item'], 
+                          'data-confirm-title'=>Yii::t('app','Are you sure?'),
+                          'data-confirm-message'=>Yii::t('app','Are you sure want to delete this item?')],
     ],
 
 ];   

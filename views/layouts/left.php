@@ -34,7 +34,7 @@ use yii\helpers\Html;
                             ['label' => 'Roles', 'icon' => '', 'url' => ['/rbac/role'], 'visible'=>\Yii::$app->user->can('MantoRoles')],
                             ['label' => 'Permisos', 'icon' => '', 'url' => ['/rbac/permission'], 'visible'=>\Yii::$app->user->can('MantoPermisos')],
                             ['label' => 'Asignacion', 'icon' => '', 'url' => ['/rbac/assignment'], 'visible'=>\Yii::$app->user->can('MantoAsignaciones')],
-                            ['label' => 'Reglas', 'icon' => '', 'url' => ['/rbac/rule'], 'visible'=>\Yii::$app->user->can('MantoReglas')],
+//                            ['label' => 'Reglas', 'icon' => '', 'url' => ['/rbac/rule'], 'visible'=>\Yii::$app->user->can('MantoReglas')],
                         ],
                     ],        
                     [

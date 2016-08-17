@@ -34,7 +34,7 @@ return [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'idUniversidad.Nombre',
         'label'=>'Universidad',
-        'filter' => Html::activeDropDownList($searchModel, 'IdUniversidad', ArrayHelper::map(Universidad::find()->asArray()->all(), 'IdUniversidad', 'Nombre'),['class'=>'form-control','prompt' => 'Seleccione universidad']),
+        'filter' => Html::activeDropDownList($searchModel, 'IdUniversidad', ArrayHelper::map(Universidad::find()->asArray()->where(['EstadoRegistro' => '1'])->all(), 'IdUniversidad', 'Nombre'),['class'=>'form-control','prompt' => 'Seleccione universidad']),
     ],
     [
         'class' => '\kartik\grid\DataColumn',

@@ -25906,3 +25906,715 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1471417500.24
     'REQUEST_TIME' => 1471417500
 ]
+2016-08-17 16:08:04 [127.0.0.1][1][olocg0rtn5i8t3q0vbmvb9g4n4][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: No tiene permitido ejecutar esta acción. in /var/www/html/basicyii/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('user/security/l...', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-08-17 16:08:04 [127.0.0.1][1][olocg0rtn5i8t3q0vbmvb9g4n4][info][application] $_POST = [
+    '_csrf' => 'c3RHSi1rYkISMHcNSx4KI0s4DyFsBRosRjMXAU9YGwdCTH9yGl8FJg=='
+    'login-form' => [
+        'login' => 'jcastaneda'
+        'password' => 'jcastaneda'
+        'rememberMe' => '0'
+    ]
+    'ajax' => 'login-form'
+]
+
+$_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'olocg0rtn5i8t3q0vbmvb9g4n4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '180'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://desarrollo.hosouees'
+    'HTTP_X_CSRF_TOKEN' => 'c3RHSi1rYkISMHcNSx4KI0s4DyFsBRosRjMXAU9YGwdCTH9yGl8FJg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=olocg0rtn5i8t3q0vbmvb9g4n4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48128'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471450084.003
+    'REQUEST_TIME' => 1471450084
+]
+2016-08-17 16:08:08 [127.0.0.1][1][olocg0rtn5i8t3q0vbmvb9g4n4][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: No tiene permitido ejecutar esta acción. in /var/www/html/basicyii/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('user/security/l...', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-08-17 16:08:08 [127.0.0.1][1][olocg0rtn5i8t3q0vbmvb9g4n4][info][application] $_POST = [
+    '_csrf' => 'c3RHSi1rYkISMHcNSx4KI0s4DyFsBRosRjMXAU9YGwdCTH9yGl8FJg=='
+    'login-form' => [
+        'login' => 'jcastaneda'
+        'password' => 'jcastaneda'
+        'rememberMe' => '0'
+    ]
+    'ajax' => 'login-form'
+]
+
+$_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'olocg0rtn5i8t3q0vbmvb9g4n4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '180'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://desarrollo.hosouees'
+    'HTTP_X_CSRF_TOKEN' => 'c3RHSi1rYkISMHcNSx4KI0s4DyFsBRosRjMXAU9YGwdCTH9yGl8FJg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/user/security/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=olocg0rtn5i8t3q0vbmvb9g4n4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48128'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471450088.615
+    'REQUEST_TIME' => 1471450088
+]
+2016-08-17 16:08:12 [127.0.0.1][1][olocg0rtn5i8t3q0vbmvb9g4n4][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: No tiene permitido ejecutar esta acción. in /var/www/html/basicyii/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(johnitvn\userplus\base\actions\LoginAction))
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('user/security/l...', Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-08-17 16:08:12 [127.0.0.1][1][olocg0rtn5i8t3q0vbmvb9g4n4][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'olocg0rtn5i8t3q0vbmvb9g4n4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=olocg0rtn5i8t3q0vbmvb9g4n4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48128'
+    'REDIRECT_URL' => '/user/security/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/security/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471450092.389
+    'REQUEST_TIME' => 1471450092
+]
+2016-08-17 16:29:33 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][error][Error] Error: Class 'ArrayHelper' not found in /var/www/html/basicyii/modules/catalogs/views/proyecto/_form.php:6
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, NULL)
+#3 /var/www/html/basicyii/modules/catalogs/views/proyecto/create.php(12): yii\base\View->render('_form', Array)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/web/View.php(210): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\ProyectoController))
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(47): yii\web\View->renderAjax('create', Array, Object(app\modules\catalogs\controllers\ProyectoController))
+#8 /var/www/html/basicyii/modules/catalogs/controllers/ProyectoController.php(96): yii\web\Controller->renderAjax('create', Array)
+#9 [internal function]: app\modules\catalogs\controllers\ProyectoController->actionCreate()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/proyec...', Array)
+#14 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2016-08-17 16:29:33 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'ajBxQkoyY0sLdEEFLEcLKlJ8OSkLXBslX3chCSgBGg5bCEl6fQYELw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48198'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471451373.518
+    'REQUEST_TIME' => 1471451373
+]
+2016-08-17 16:29:33 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-17 16:29:33 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'ajBxQkoyY0sLdEEFLEcLKlJ8OSkLXBslX3chCSgBGg5bCEl6fQYELw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48198'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471451373.518
+    'REQUEST_TIME' => 1471451373
+]
+2016-08-17 16:39:51 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][error][Error] Error: Call to a member function label() on string in /var/www/html/basicyii/modules/catalogs/views/proyecto/_form.php:34
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, NULL)
+#3 /var/www/html/basicyii/modules/catalogs/views/proyecto/create.php(12): yii\base\View->render('_form', Array)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/web/View.php(210): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\ProyectoController))
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(47): yii\web\View->renderAjax('create', Array, Object(app\modules\catalogs\controllers\ProyectoController))
+#8 /var/www/html/basicyii/modules/catalogs/controllers/ProyectoController.php(96): yii\web\Controller->renderAjax('create', Array)
+#9 [internal function]: app\modules\catalogs\controllers\ProyectoController->actionCreate()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/proyec...', Array)
+#14 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2016-08-17 16:39:51 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'VFQud2dueWM1EB4wARsRAmwYZhwmAAENYRN.PAVdACZlbBZPUFoeBw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48270'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471451991.202
+    'REQUEST_TIME' => 1471451991
+]
+2016-08-17 16:39:51 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-17 16:39:51 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'VFQud2dueWM1EB4wARsRAmwYZhwmAAENYRN.PAVdACZlbBZPUFoeBw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48270'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471451991.202
+    'REQUEST_TIME' => 1471451991
+]
+2016-08-17 16:40:04 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][error][Error] Error: Call to a member function label() on string in /var/www/html/basicyii/modules/catalogs/views/proyecto/_form.php:34
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/b...', Array, NULL)
+#3 /var/www/html/basicyii/modules/catalogs/views/proyecto/create.php(12): yii\base\View->render('_form', Array)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/b...')
+#5 /var/www/html/basicyii/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/b...', Array)
+#6 /var/www/html/basicyii/vendor/yiisoft/yii2/web/View.php(210): yii\base\View->renderFile('/var/www/html/b...', Array, Object(app\modules\catalogs\controllers\ProyectoController))
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Controller.php(47): yii\web\View->renderAjax('create', Array, Object(app\modules\catalogs\controllers\ProyectoController))
+#8 /var/www/html/basicyii/modules/catalogs/controllers/ProyectoController.php(96): yii\web\Controller->renderAjax('create', Array)
+#9 [internal function]: app\modules\catalogs\controllers\ProyectoController->actionCreate()
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#13 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/proyec...', Array)
+#14 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2016-08-17 16:40:03 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'VFQud2dueWM1EB4wARsRAmwYZhwmAAENYRN.PAVdACZlbBZPUFoeBw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48272'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471452003.968
+    'REQUEST_TIME' => 1471452003
+]
+2016-08-17 16:40:04 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php:57
+
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(57): serialize(Array)
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-08-17 16:40:03 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'VFQud2dueWM1EB4wARsRAmwYZhwmAAENYRN.PAVdACZlbBZPUFoeBw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48272'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471452003.968
+    'REQUEST_TIME' => 1471452003
+]
+2016-08-17 17:08:52 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][error][yii\db\Exception] PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '20 ago 2016' for column 'FechaIni' at row 1 in /var/www/html/basicyii/vendor/yiisoft/yii2/db/Command.php:844
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/db/Command.php(844): PDOStatement->execute()
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/db/Schema.php(451): yii\db\Command->execute()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('proyecto', Array)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(598): yii\db\ActiveRecord->insert(true, NULL)
+#5 /var/www/html/basicyii/modules/catalogs/controllers/ProyectoController.php(102): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\modules\catalogs\controllers\ProyectoController->actionCreate()
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/proyec...', Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '20 ago 2016' for column 'FechaIni' at row 1
+The SQL being executed was: INSERT INTO `proyecto` (`NombreProyecto`, `Ubicacion`, `FechaIni`, `FechaFin`, `IdInstitucion`, `NumeroPersonas`, `HorasSolicitadas`, `HorasSocialesXhora`, `IdPersonaAsesor`, `IdEstadoProyecto`, `EstadoRegistro`) VALUES ('proyecto 1', 'ubicacino', '20 ago 2016', '31 ago 2016', 1, 5, 100, 2, 1, 1, '1') in /var/www/html/basicyii/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /var/www/html/basicyii/vendor/yiisoft/yii2/db/Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `pr...')
+#1 /var/www/html/basicyii/vendor/yiisoft/yii2/db/Schema.php(451): yii\db\Command->execute()
+#2 /var/www/html/basicyii/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('proyecto', Array)
+#3 /var/www/html/basicyii/vendor/yiisoft/yii2/db/ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /var/www/html/basicyii/vendor/yiisoft/yii2/db/BaseActiveRecord.php(598): yii\db\ActiveRecord->insert(true, NULL)
+#5 /var/www/html/basicyii/modules/catalogs/controllers/ProyectoController.php(102): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\modules\catalogs\controllers\ProyectoController->actionCreate()
+#7 /var/www/html/basicyii/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#10 /var/www/html/basicyii/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('catalogs/proyec...', Array)
+#11 /var/www/html/basicyii/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/basicyii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 22007
+    [1] => 1292
+    [2] => Incorrect date value: '20 ago 2016' for column 'FechaIni' at row 1
+)
+
+2016-08-17 17:08:52 [127.0.0.1][1][n7ilfqdru0ibuldg7qrd225462][info][application] $_POST = [
+    '_csrf' => 'S241UjFKTFcqKgUVVz8kNnMifTlwJDQ5fillGVN5NRJ6Vg1qBn4rMw=='
+    'Proyecto' => [
+        'NombreProyecto' => 'proyecto 1'
+        'Ubicacion' => 'ubicacino'
+        'FechaIni' => '20 ago 2016'
+        'FechaFin' => '31 ago 2016'
+        'IdInstitucion' => '1'
+        'NumeroPersonas' => '5'
+        'HorasSolicitadas' => '100'
+        'HorasSocialesXhora' => '2'
+        'IdPersonaAsesor' => '1'
+        'IdEstadoProyecto' => '1'
+        'EstadoRegistro' => '1'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aD0Gfuha8LHkAnxn5GPKb3yE188874gd\";}'
+    'PHPSESSID' => 'n7ilfqdru0ibuldg7qrd225462'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'desarrollo.hosouees'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '437'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://desarrollo.hosouees'
+    'HTTP_X_CSRF_TOKEN' => 'OG9ZNHVyOXZZK2lzEwdRFwAjEV80HEEYDSgJfxdBQDMJV2EMQkZeEg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://desarrollo.hosouees/catalogs/proyecto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=18effdd7b372f88ff7ecd38f48e0b2c747c4839079c0a0d3d1f459b9e4132862a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aD0Gfuha8LHkAnxn5GPKb3yE188874gd%22%3B%7D; PHPSESSID=n7ilfqdru0ibuldg7qrd225462'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at desarrollo.hosouees Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'desarrollo.hosouees'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/basicyii/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/basicyii/web/index.php'
+    'REMOTE_PORT' => '48422'
+    'REDIRECT_URL' => '/catalogs/proyecto/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalogs/proyecto/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1471453732.167
+    'REQUEST_TIME' => 1471453732
+]
