@@ -30,11 +30,11 @@ use yii\helpers\Html;
                         'icon' => 'fa fa-user',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Usuarios', 'icon' => '', 'url' => ['/user/manager']],
-                            ['label' => 'Roles', 'icon' => '', 'url' => ['/rbac/role']],
-                            ['label' => 'Permisos', 'icon' => '', 'url' => ['/rbac/permission']],
-                            ['label' => 'Asignacion', 'icon' => '', 'url' => ['/rbac/assignment']],
-                            ['label' => 'Reglas', 'icon' => '', 'url' => ['/rbac/rule']],
+                            ['label' => 'Usuarios', 'icon' => '', 'url' => ['/user/manager'], 'visible'=>\Yii::$app->user->can('MantoUsuarios')],
+                            ['label' => 'Roles', 'icon' => '', 'url' => ['/rbac/role'], 'visible'=>\Yii::$app->user->can('MantoRoles')],
+                            ['label' => 'Permisos', 'icon' => '', 'url' => ['/rbac/permission'], 'visible'=>\Yii::$app->user->can('MantoPermisos')],
+                            ['label' => 'Asignacion', 'icon' => '', 'url' => ['/rbac/assignment'], 'visible'=>\Yii::$app->user->can('MantoAsignaciones')],
+                            ['label' => 'Reglas', 'icon' => '', 'url' => ['/rbac/rule'], 'visible'=>\Yii::$app->user->can('MantoReglas')],
                         ],
                     ],        
                     [

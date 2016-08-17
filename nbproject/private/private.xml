@@ -3,7 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/html/basicyii/modules/catalogs/views/universidad/index.php</file>
+            <file>file:/var/www/html/basicyii/views/layouts/left.php</file>
+            <file>file:/var/www/html/basicyii/modules/catalogs/views/carrera/_form.php</file>
+            <file>file:/var/www/html/basicyii/views/site/index.php</file>
         </group>
     </open-files>
 </project-private>

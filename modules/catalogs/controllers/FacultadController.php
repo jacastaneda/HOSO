@@ -11,6 +11,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use \yii\web\Response;
 use yii\helpers\Html;
+use yii\helpers\Json;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -49,7 +50,33 @@ class FacultadController extends Controller
         ]);
     }
 
-
+    public function actionGetFacultades() {
+        $out = [];
+        if (isset($_POST['depdrop_parents'])) {
+            $parents = $_POST['depdrop_parents'];
+            if ($parents != null) {
+                $universidad_id = $parents[0];
+                $out = Facultad::find()->select(['IdFacultad', 'Nombre'])->where(['idUniversidad' => $universidad_id])->all();
+                foreach($out as $o)
+                {
+                    $opt[] = ['id'=>$o->IdFacultad, 'name'=>$o->Nombre];
+                }
+                
+                if(count($out) > 0)
+                {
+                    echo Json::encode(['output'=>$opt, 'selected'=>'']);
+                }
+                else
+                {
+                   echo Json::encode(['output'=>'', 'selected'=>'']); 
+                }
+                
+                return;
+            }
+        }
+        echo Json::encode(['output'=>'', 'selected'=>'']);
+    }
+    
     /**
      * Displays a single Facultad model.
      * @param integer $id

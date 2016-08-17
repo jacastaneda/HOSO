@@ -1,6 +1,10 @@
 <?php
 use yii\helpers\Url;
+use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
 use app\helpers\CrudHelper;
+use app\modules\catalogs\models\Universidad;
+use app\modules\catalogs\models\Facultad;
 
 return [
     [
@@ -11,10 +15,23 @@ return [
         'class' => 'kartik\grid\SerialColumn',
         'width' => '30px',
     ],
-        [
+    [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'IdCarrera',
     ],
+    [
+        'class'=>'\kartik\grid\DataColumn',
+        'attribute'=>'idFacultad.idUniversidad.Nombre',
+        'label'=>'Universidad',
+//        'filter' => Html::activeDropDownList($searchModel, 'IdUniversidad', ArrayHelper::map(Universidad::find()->asArray()->all(), 'IdUniversidad', 'Nombre'),['class'=>'form-control','prompt' => 'Seleccione universidad']),        
+    ],    
+    [
+        'class'=>'\kartik\grid\DataColumn',
+        'attribute'=>'idFacultad.Nombre',
+        'label'=> 'Facultad',
+//        'filter' => Html::activeDropDownList($searchModel, 'IdFacultad', ArrayHelper::map(Facultad::find()->asArray()->all(), 'IdFacultad', 'Nombre'),['class'=>'form-control','prompt' => 'Seleccione facultad']),        
+        
+    ],    
     [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'Nombre',
@@ -22,10 +39,6 @@ return [
     [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'NombreCorto',
-    ],
-    [
-        'class'=>'\kartik\grid\DataColumn',
-        'attribute'=>'IdFacultad',
     ],
     [
         'class' => '\kartik\grid\DataColumn',

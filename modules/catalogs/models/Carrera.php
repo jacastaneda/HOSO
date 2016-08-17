@@ -17,6 +17,9 @@ use Yii;
  */
 class Carrera extends \yii\db\ActiveRecord
 {
+    
+    public $IdUniversidad;
+    
     /**
      * @inheritdoc
      */
@@ -31,7 +34,7 @@ class Carrera extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Nombre'], 'required'],
+            [['Nombre','IdFacultad'], 'required'],
             [['IdFacultad'], 'integer'],
             [['Nombre', 'NombreCorto'], 'string', 'max' => 100],
             [['EstadoRegistro'], 'string', 'max' => 1],
@@ -48,7 +51,7 @@ class Carrera extends \yii\db\ActiveRecord
             'IdCarrera' => Yii::t('app', 'Id Carrera'),
             'Nombre' => Yii::t('app', 'Nombre'),
             'NombreCorto' => Yii::t('app', 'Nombre Corto'),
-            'IdFacultad' => Yii::t('app', 'Id Facultad'),
+            'IdFacultad' => Yii::t('app', 'Facultad'),
             'EstadoRegistro' => Yii::t('app', 'Estado Registro'),
         ];
     }
