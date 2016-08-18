@@ -25,6 +25,7 @@ return [
     [
         'class'=>'\kartik\grid\DataColumn',
         'attribute'=>'HorasSolicitadas',
+        'label' => 'Horas a otorgar'
     ],
     [
         'class'=>'\kartik\grid\DataColumn',
@@ -72,18 +73,39 @@ return [
     [
         'class' => 'kartik\grid\ActionColumn',
         'dropdown' => false,
+        'template' => '{view} {update} {delete}',
         'vAlign'=>'middle',
         'urlCreator' => function($action, $model, $key, $index) { 
-                return Url::to([$action,'id'=>$key]);
-        },
+            if ($action === 'update') 
+            {
+                $url ='/proyecto/update?id='.$key;
+                return $url;
+            }
+            
+
+            return Url::to([$action,'id'=>$key]);
+        },                
         'viewOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'View'),'data-toggle'=>'tooltip'],
-        'updateOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'Update'), 'data-toggle'=>'tooltip'],
+        'updateOptions'=>[/*'role'=>'modal-remote',*/'title'=>Yii::t('app', 'Update'), 'data-toggle'=>'tooltip'],
         'deleteOptions'=>['role'=>'modal-remote','title'=>Yii::t('app', 'Delete'), 
                           'data-confirm'=>false, 'data-method'=>false,// for overide yii data api
                           'data-request-method'=>'post',
                           'data-toggle'=>'tooltip',
                           'data-confirm-title'=>Yii::t('app','Are you sure?'),
                           'data-confirm-message'=>Yii::t('app','Are you sure want to delete this item?')],
+    
+//            'template' => '{importdetail} {a} {2}',
+//            'buttons' => [
+//               'importdetail' => function ($url, $model) {
+//                    $title = Yii::t('app', 'View Details');
+//                    $icon = '<span class="glyphicon glyphicon-eye-open"></span>';
+//                    $label = ArrayHelper::remove($options, 'label', ($icon));
+//                    $label = ArrayHelper::remove($options, 'label', $icon . ' ' . $title);
+//                    $url = Url::toRoute(['importdetail','DataRefreshItemDetailSearch']);
+//
+//                    return Html::a($label, $url, $options);
+//                },
+//            ],        
     ],
 
 ];   

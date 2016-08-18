@@ -42,12 +42,11 @@ use yii\helpers\Html;
                         'icon' => 'fa fa-navicon',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Universidades', 'icon' => '', 'url' => ['/catalogs/universidad']],
-                            ['label' => 'Facultades', 'icon' => '', 'url' => ['/catalogs/facultad']],
-                            ['label' => 'Carreras', 'icon' => '', 'url' => ['/catalogs/carrera']],
-                            ['label' => 'Instituciones', 'icon' => '', 'url' => ['/catalogs/institucion']],
-                            ['label' => 'Proyecto', 'icon' => '', 'url' => ['/catalogs/proyecto']],
-                            ['label' => 'Estado Proyecto', 'icon' => '', 'url' => ['/catalogs/estados-proyecto']],
+                            ['label' => 'Universidades', 'icon' => '', 'url' => ['/catalogs/universidad'], 'visible'=>\Yii::$app->user->can('MantoUniversidades')],
+                            ['label' => 'Carreras', 'icon' => '', 'url' => ['/catalogs/carrera'], 'visible'=>\Yii::$app->user->can('MantoFacultades')],
+                            ['label' => 'Instituciones', 'icon' => '', 'url' => ['/catalogs/institucion'], 'visible'=>\Yii::$app->user->can('MantoInstituciones')],
+                            ['label' => 'Proyecto', 'icon' => '', 'url' => ['/catalogs/proyecto'], 'visible'=>\Yii::$app->user->can('MantoProyectos')],
+//                            ['label' => 'Estado Proyecto', 'icon' => '', 'url' => ['/catalogs/estados-proyecto']],
                         ],
                     ],                      
                     [

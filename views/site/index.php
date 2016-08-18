@@ -1,7 +1,6 @@
 <?php
 use \yii\helpers\Html;
 use \yii\bootstrap\Button;
-
 /* @var $this yii\web\View */
 $this->title = 'Bienvenido al Sistema de gestión de Horas Sociales de la UEES';
 ?>
@@ -14,6 +13,6 @@ $this->title = 'Bienvenido al Sistema de gestión de Horas Sociales de la UEES';
   
 </div>
 <script>
-    alert('hosouees');
+//    alert('hosouees');
 </script>
 

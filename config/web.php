@@ -9,7 +9,10 @@ $config = [
     'defaultRoute' => 'site/index',
     'language' => 'es',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => [
+                    'log',
+                    'app\components\Bootstrap',
+        ],
     'components' => [
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
