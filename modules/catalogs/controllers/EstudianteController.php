@@ -15,7 +15,7 @@ use yii\helpers\Html;
 /**
  * PersonaController implements the CRUD actions for Persona model.
  */
-class PersonaController extends Controller
+class EstudianteController extends Controller
 {
     /**
      * @inheritdoc
@@ -40,7 +40,7 @@ class PersonaController extends Controller
     public function actionIndex()
     {    
         $searchModel = new PersonaSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams,'ES');
 
         return $this->render('index', [
             'searchModel' => $searchModel,

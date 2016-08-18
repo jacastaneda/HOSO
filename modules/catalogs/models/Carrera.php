@@ -14,12 +14,11 @@ use Yii;
  * @property string $EstadoRegistro
  *
  * @property Facultad $idFacultad
+ * @property Persona[] $personas
  */
 class Carrera extends \yii\db\ActiveRecord
 {
-    
     public $IdUniversidad;
-    
     /**
      * @inheritdoc
      */
@@ -34,7 +33,7 @@ class Carrera extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Nombre','IdFacultad'], 'required'],
+            [['Nombre'], 'required'],
             [['IdFacultad'], 'integer'],
             [['Nombre', 'NombreCorto'], 'string', 'max' => 100],
             [['EstadoRegistro'], 'string', 'max' => 1],
@@ -65,8 +64,16 @@ class Carrera extends \yii\db\ActiveRecord
     }
 
     /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getPersonas()
+    {
+        return $this->hasMany(Persona::className(), ['IdCarrera' => 'IdCarrera'])->inverseOf('idCarrera');
+    }
+
+    /**
      * @inheritdoc
-     * @return CarreraQuery the active query used by this AR class.
+     * @return CarQuery the active query used by this AR class.
      */
     public static function find()
     {

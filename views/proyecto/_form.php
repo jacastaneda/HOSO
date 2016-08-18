@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 use app\helpers\CrudHelper;
 use app\modules\catalogs\models\EstadosProyecto;
 use app\modules\catalogs\models\Institucion;
-use yii\jui\DatePicker;
+//use yii\jui\DatePicker;
 use kartik\widgets\FileInput;
 use kartik\date\DatePicker as KDatePicker;
 

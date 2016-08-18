@@ -1,5 +1,8 @@
 <?php
 use yii\helpers\Html;
+use \app\helpers\PersonaHelper;
+$persona  = PersonaHelper::getPersona();
+
 /* @var $this \yii\web\View */
 /* @var $content string */
 ?>  
@@ -63,18 +66,17 @@ use yii\helpers\Html;
 
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                        <?= Html::img('@web/uploads/'.PersonaHelper::getImagenPersona(), ['class' => 'user-image', 'alt'=>'Foto de usuario']);?> 
                         <span class="hidden-xs"><?=Yii::$app->user->identity->username;?></span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle"
-                                 alt="User Image"/>
+                            <?= Html::img('@web/uploads/'.PersonaHelper::getImagenPersona(), ['class' => 'img-circle', 'alt'=>'Foto de usuario']);?> 
 
                             <p>
-                                Alexander Pierce - Web Developer
-                                <small>Member since Nov. 2012</small>
+                                <?php echo PersonaHelper::getNombrePersona(); ?>
+                                <!--<small>Member since Nov. 2012</small>-->
                             </p>
                         </li>
                         <!-- Menu Footer-->

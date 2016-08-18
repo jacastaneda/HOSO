@@ -16,4 +16,40 @@ class CrudHelper
         return 'Inactivo';        
       }
     } 
+
+    const ESTUDIANTE = 'ES';
+    const EMPLEADO = 'EM';
+    const EXTERNO = 'EX';
+    
+    public static function getTipoPersona() 
+    {
+        return array (self::ESTUDIANTE=>'Estudiante', self::EMPLEADO=>'Empleado', self::EXTERNO=>'Empleado');
+    }
+     
+    public static function getTipoPersonaLabel($tipoPersona) {
+      if ($tipoPersona==self::ESTUDIANTE) {
+        return 'Estudiante';
+      } elseif($tipoPersona==self::EMPLEADO) {
+        return 'Empleado';        
+      }
+      elseif($tipoPersona==self::EXTERNO){
+        return 'Externo';   
+      }
+    } 
+
+    const MASCULINO = 'M';
+    const FEMENINO = 'F';
+    
+    public static function getSexo() 
+    {
+        return array (self::MASCULINO=>'Estudiante', self::FEMENINO=>'Empleado');
+    }
+     
+    public static function getSexoLabel($sexo) {
+      if ($sexo==self::MASCULINO) {
+        return 'Masculino';
+      } elseif($sexo==self::FEMENINO) {
+        return 'Femenino';        
+      }
+    }    
 }

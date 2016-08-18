@@ -46,7 +46,8 @@ use yii\helpers\Html;
                             ['label' => 'Carreras', 'icon' => '', 'url' => ['/catalogs/carrera'], 'visible'=>\Yii::$app->user->can('MantoFacultades')],
                             ['label' => 'Instituciones', 'icon' => '', 'url' => ['/catalogs/institucion'], 'visible'=>\Yii::$app->user->can('MantoInstituciones')],
                             ['label' => 'Proyecto', 'icon' => '', 'url' => ['/catalogs/proyecto'], 'visible'=>\Yii::$app->user->can('MantoProyectos')],
-//                            ['label' => 'Estado Proyecto', 'icon' => '', 'url' => ['/catalogs/estados-proyecto']],
+                            ['label' => 'Estudiantes', 'icon' => '', 'url' => ['/catalogs/estudiante'], 'visible'=>\Yii::$app->user->can('MantoPersonas')],
+                            ['label' => 'Empleados', 'icon' => '', 'url' => ['/catalogs/empleado'], 'visible'=>\Yii::$app->user->can('MantoPersonas')],
                         ],
                     ],                      
                     [

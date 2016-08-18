@@ -18,7 +18,7 @@ class PersonaSearch extends Persona
     public function rules()
     {
         return [
-            [['IdPersona', 'UserId'], 'integer'],
+            [['IdPersona', 'UserId', 'IdCarrera'], 'integer'],
             [['Nombres', 'Apellidos', 'CarnetEstudiante', 'CarnetEmpleado', 'DUI', 'NIT', 'Direccion', 'Telefono', 'Sexo', 'Cargo', 'TipoPersona', 'ArchivoAdjunto', 'NombreAdjunto', 'EstadoRegistro'], 'safe'],
         ];
     }
@@ -39,9 +39,11 @@ class PersonaSearch extends Persona
      *
      * @return ActiveDataProvider
      */
-    public function search($params)
+    public function search($params, $tipoPersona)
     {
-        $query = Persona::find();
+        $query = Persona::find()->where(['TipoPersona' => $tipoPersona]);
+
+        // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -55,9 +57,11 @@ class PersonaSearch extends Persona
             return $dataProvider;
         }
 
+        // grid filtering conditions
         $query->andFilterWhere([
             'IdPersona' => $this->IdPersona,
             'UserId' => $this->UserId,
+            'IdCarrera' => $this->IdCarrera,
         ]);
 
         $query->andFilterWhere(['like', 'Nombres', $this->Nombres])

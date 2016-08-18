@@ -3,11 +3,11 @@
 namespace app\modules\catalogs\models;
 
 /**
- * This is the ActiveQuery class for [[User]].
+ * This is the ActiveQuery class for [[UserAccounts]].
  *
- * @see User
+ * @see UserAccounts
  */
-class UserQuery extends \yii\db\ActiveQuery
+class UserAccountsQuery extends \yii\db\ActiveQuery
 {
     /*public function active()
     {
@@ -16,7 +16,7 @@ class UserQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return User[]|array
+     * @return UserAccounts[]|array
      */
     public function all($db = null)
     {
@@ -25,7 +25,7 @@ class UserQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return User|array|null
+     * @return UserAccounts|array|null
      */
     public function one($db = null)
     {

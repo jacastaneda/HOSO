@@ -1,6 +1,7 @@
 <?php
 use \yii\helpers\Html;
 use \yii\bootstrap\Button;
+use \app\helpers\PersonaHelper;
 /* @var $this yii\web\View */
 $this->title = 'Bienvenido al Sistema de gestión de Horas Sociales de la UEES';
 ?>
