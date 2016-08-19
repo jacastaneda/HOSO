@@ -47,6 +47,6 @@ use app\helpers\CrudHelper;
 <script>
 //    alert('hosouees');
 $(function(){
-    $('.modal-footer').remove();
+//    $('.modal-footer').remove();
 })
 </script>

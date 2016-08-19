@@ -46,8 +46,7 @@ class ProyectoController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
-
-
+        
     /**
      * Displays a single Proyecto model.
      * @param integer $id
@@ -63,8 +62,8 @@ class ProyectoController extends Controller
                     'content'=>$this->renderAjax('view', [
                         'model' => $this->findModel($id),
                     ]),
-                    'footer'=> Html::button('Close',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).
-                            Html::a('Edit',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])
+                    'footer'=> Html::button('Cerrar',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).
+                            Html::a('Editar',['/proyecto/update','id'=>$id],['class'=>'btn btn-primary',/*'role'=>'modal-remote'*/])
                 ];    
         }else{
             return $this->render('view', [

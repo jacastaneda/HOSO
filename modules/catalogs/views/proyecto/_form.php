@@ -5,9 +5,11 @@ use yii\widgets\ActiveForm;
 use app\helpers\CrudHelper;
 use app\modules\catalogs\models\EstadosProyecto;
 use app\modules\catalogs\models\Institucion;
+use app\modules\catalogs\models\Persona;
 use yii\jui\DatePicker;
 $estadosProyecto = ArrayHelper::map(EstadosProyecto::find()->where(['EstadoRegistro' => '1'])->all(), 'IdEstadoProyecto', 'EstadoProyecto');
 $instituciones = ArrayHelper::map(Institucion::find()->where(['EstadoRegistro' => '1'])->all(), 'IdInstitucion', 'Nombre');
+$asesores = ArrayHelper::map(Persona::find()->where(['EstadoRegistro' => '1', 'TipoPersona !=' => 'ES'])->all(), 'IdPersona', 'NombreCompleto');
 
 /* @var $this yii\web\View */
 /* @var $model app\modules\catalogs\models\Proyecto */
@@ -41,7 +43,8 @@ $instituciones = ArrayHelper::map(Institucion::find()->where(['EstadoRegistro' =
     
     <?= $form->field($model, 'HorasSocialesXhora')->textInput()->label('Cantidad de horas sociales por hora de asitencia') ?>          
 
-    <?= $form->field($model, 'IdPersonaAsesor')->textInput() ?>
+    <?= $form->field($model, 'IdPersonaAsesor')->dropDownList($asesores, 
+             ['prompt'=>'- Seleccione el asesor del proyecto -', 'id'=>'IdPersonaAsesor-id'])->label('Asesor') ?>    
 
     <?= $form->field($model, 'IdEstadoProyecto')->dropDownList($estadosProyecto, 
              ['prompt'=>'- Seleccione el estado del proyecto -', 'id'=>'estadoProyecto-id'])->label('Estado del proyecto') ?>     

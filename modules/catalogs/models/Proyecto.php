@@ -56,6 +56,7 @@ class Proyecto extends \yii\db\ActiveRecord
             [['EstadoRegistro'], 'string', 'max' => 1],
             [['IdEstadoProyecto'], 'exist', 'skipOnError' => true, 'targetClass' => EstadosProyecto::className(), 'targetAttribute' => ['IdEstadoProyecto' => 'IdEstadoProyecto']],
             [['IdInstitucion'], 'exist', 'skipOnError' => true, 'targetClass' => Institucion::className(), 'targetAttribute' => ['IdInstitucion' => 'IdInstitucion']],
+            [['IdPersonaAsesor'], 'exist', 'skipOnError' => true, 'targetClass' => Persona::className(), 'targetAttribute' => ['IdPersonaAsesor' => 'IdPersona']],
         ];
     }
 
@@ -71,8 +72,8 @@ class Proyecto extends \yii\db\ActiveRecord
             'HorasSolicitadas' => Yii::t('app', 'Horas Solicitadas'),
             'HorasSocialesXhora' => Yii::t('app', 'Horas Sociales Xhora'),
             'Ubicacion' => Yii::t('app', 'Ubicacion'),
-            'FechaIni' => Yii::t('app', 'Fecha Ini'),
-            'FechaFin' => Yii::t('app', 'Fecha Fin'),
+            'FechaIni' => Yii::t('app', 'Fecha Inicio'),
+            'FechaFin' => Yii::t('app', 'Fecha Finalización'),
             'IdInstitucion' => Yii::t('app', 'Id Institucion'),
             'IdEstadoProyecto' => Yii::t('app', 'Id Estado Proyecto'),
             'IdPersonaAsesor' => Yii::t('app', 'Id Persona Asesor'),
@@ -106,7 +107,30 @@ class Proyecto extends \yii\db\ActiveRecord
     {
         return $this->hasMany(Persona::className(), ['IdPersona' => 'IdPersona'])->viaTable('horas', ['IdProyecto' => 'IdProyecto']);
     }
+    
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getIdPersonasActivas()
+    {
+        return $this->hasMany(Persona::className(), ['IdPersona' => 'IdPersona'])->viaTable('horas', ['IdProyecto' => 'IdProyecto'],function ($query) {
+            /* @var $query \yii\db\ActiveQuery */
 
+            $query->andWhere(['PersonaActiva' => '1']);
+        });
+    }   
+    
+    public function getCuposUtilizados()
+    {
+       return $this->getIdPersonasActivas()->count();
+    }    
+
+    public function getCuposDisponibles()
+    {
+        $cupos = $this->NumeroPersonas - $this->getIdPersonasActivas()->count();
+        return $cupos;
+    }
+    
     /**
      * @return \yii\db\ActiveQuery
      */
@@ -123,6 +147,15 @@ class Proyecto extends \yii\db\ActiveRecord
         return $this->hasOne(Institucion::className(), ['IdInstitucion' => 'IdInstitucion'])->inverseOf('proyectos');
     }
 
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getIdPersonaAsesor()
+    {
+        return $this->hasOne(Persona::className(), ['IdPersona' => 'IdPersonaAsesor'])->inverseOf('proyectos');
+    }
+    
+    
     /**
      * @inheritdoc
      * @return ProyectoQuery the active query used by this AR class.

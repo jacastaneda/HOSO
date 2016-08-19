@@ -29,12 +29,12 @@ use app\helpers\CrudHelper;
                 'attribute'=> 'HorasSolicitadas',
             ],
             [
-                'label' => 'Cantidad de horas sociales por hora<br de asitencia',
+                'label' => 'Cantidad de horas sociales por hora<br/>de asitencia',
                 'attribute'=> 'HorasSocialesXhora',
             ],    
             [
                 'label' => 'Asesor',
-                'attribute'=> 'IdPersonaAsesor',
+                'attribute'=> 'idPersonaAsesor.NombreCompleto',
             ],             
             'idEstadoProyecto.EstadoProyecto',
             [
@@ -50,6 +50,6 @@ use app\helpers\CrudHelper;
 <script>
 //    alert('hosouees');
 $(function(){
-    $('.modal-footer').remove();
+//    $('.modal-footer').remove();
 })
 </script>

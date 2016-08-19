@@ -39,10 +39,15 @@ class ProyectoSearch extends Proyecto
      *
      * @return ActiveDataProvider
      */
-    public function search($params)
+    public function search($params, $where = FALSE)
     {
         $query = Proyecto::find();
-
+        
+        if($where !== FALSE)
+        {
+            $query->where($where);
+        }
+        
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);

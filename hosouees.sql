@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 15-08-2016 a las 20:14:22
+-- Tiempo de generación: 18-08-2016 a las 22:53:03
 -- Versión del servidor: 5.7.13-0ubuntu0.16.04.2
 -- Versión de PHP: 7.0.8-0ubuntu0.16.04.2
 
@@ -37,8 +37,9 @@ CREATE TABLE `auth_assignment` (
 --
 
 INSERT INTO `auth_assignment` (`item_name`, `user_id`, `created_at`) VALUES
-('Administrador', '1', 1470816368),
-('Estudiante', '2', 1470881064);
+('Administrador', '1', 1471397326),
+('Estudiante', '2', 1470881064),
+('Supervisor', '3', 1471568351);
 
 -- --------------------------------------------------------
 
@@ -61,11 +62,21 @@ CREATE TABLE `auth_item` (
 --
 
 INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES
-('Administrador', 1, 'Administrador', NULL, NULL, 1470816328, 1470953365),
+('Administrador', 1, 'Administrador', NULL, NULL, 1470816328, 1471536243),
+('Administrador de proyecto', 1, 'Administrador de proyecto en la institucion', NULL, NULL, 1471397869, 1471397869),
 ('Coordinador', 1, 'Coordinador de proyectos de horas sociales', NULL, NULL, 1470880648, 1470880855),
-('CrearFacultades', 2, 'Permite acceder al mantenimiento de facultades en el sistema', NULL, NULL, 1470953345, 1470953345),
-('CrearProyectos', 2, 'Registrar proyectos de horas sociales disponibles', NULL, NULL, 1470880828, 1470880828),
 ('Estudiante', 1, 'Estudiante de la UEES', NULL, NULL, 1470880684, 1470880684),
+('MantoAsignaciones', 2, 'Asignacion de permisos', NULL, NULL, 1471410730, 1471410730),
+('MantoCarreras', 2, 'Acceso al mantenimiento de carreras', NULL, NULL, 1471477751, 1471477751),
+('MantoFacultades', 2, 'Permite acceder al mantenimiento de facultades en el sistema', NULL, NULL, 1470953345, 1471477675),
+('MantoInstituciones', 2, 'Acceso al mantenimiento de instituciones', NULL, NULL, 1471477770, 1471477786),
+('MantoPermisos', 2, 'Mantenimiento de Permisos', NULL, NULL, 1471410710, 1471410710),
+('MantoPersonas', 2, 'Acceso al mantenimiento de personas', NULL, NULL, 1471536227, 1471536227),
+('MantoProyectos', 2, 'Registrar proyectos de horas sociales disponibles', NULL, NULL, 1470880828, 1471477692),
+('MantoReglas', 2, 'Mantenimiento de Rules RBAC', NULL, NULL, 1471410763, 1471410763),
+('MantoRoles', 2, 'Mantenimiento de roles', NULL, NULL, 1471410686, 1471410686),
+('MantoUniversidades', 2, 'Registrar universidades', NULL, NULL, 1471477722, 1471477722),
+('MantoUsuarios', 2, 'Mantenimiento de Usuarios', NULL, NULL, 1471410651, 1471410651),
 ('Supervisor', 1, 'Supervisor de proyectos de horas sociales', NULL, NULL, 1470880665, 1470880665);
 
 -- --------------------------------------------------------
@@ -84,9 +95,18 @@ CREATE TABLE `auth_item_child` (
 --
 
 INSERT INTO `auth_item_child` (`parent`, `child`) VALUES
-('Administrador', 'CrearFacultades'),
-('Administrador', 'CrearProyectos'),
-('Coordinador', 'CrearProyectos');
+('Administrador', 'MantoAsignaciones'),
+('Administrador', 'MantoCarreras'),
+('Administrador', 'MantoFacultades'),
+('Administrador', 'MantoInstituciones'),
+('Administrador', 'MantoPermisos'),
+('Administrador', 'MantoPersonas'),
+('Administrador', 'MantoProyectos'),
+('Coordinador', 'MantoProyectos'),
+('Administrador', 'MantoReglas'),
+('Administrador', 'MantoRoles'),
+('Administrador', 'MantoUniversidades'),
+('Administrador', 'MantoUsuarios');
 
 -- --------------------------------------------------------
 
@@ -114,6 +134,14 @@ CREATE TABLE `carrera` (
   `IdFacultad` int(11) DEFAULT NULL COMMENT 'Codigo identificador de la facultad',
   `EstadoRegistro` char(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `carrera`
+--
+
+INSERT INTO `carrera` (`IdCarrera`, `Nombre`, `NombreCorto`, `IdFacultad`, `EstadoRegistro`) VALUES
+(1, 'Medicina General', 'MEDGE', 5, '1'),
+(2, 'Ingeniería en Sistemas Informáticos', 'ISI', 4, '1');
 
 -- --------------------------------------------------------
 
@@ -320,9 +348,23 @@ CREATE TABLE `persona` (
   `Telefono` varchar(8) DEFAULT NULL COMMENT 'Telefono de la persona u estudiante',
   `Sexo` char(1) NOT NULL COMMENT 'Sexo de la persona o estudiante',
   `Cargo` varchar(25) DEFAULT NULL COMMENT 'Codigo identificador del cargo',
-  `UserId` int(11) NOT NULL,
+  `UserId` int(11) DEFAULT NULL,
+  `TipoPersona` char(2) DEFAULT NULL COMMENT 'ES-> Estudiante, EM->Empleado, Ex->Externo',
+  `IdCarrera` int(11) DEFAULT NULL,
+  `ArchivoAdjunto` varchar(150) DEFAULT NULL,
+  `NombreAdjunto` varchar(150) DEFAULT NULL,
   `EstadoRegistro` char(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `persona`
+--
+
+INSERT INTO `persona` (`IdPersona`, `Nombres`, `Apellidos`, `CarnetEstudiante`, `CarnetEmpleado`, `DUI`, `NIT`, `Direccion`, `Telefono`, `Sexo`, `Cargo`, `UserId`, `TipoPersona`, `IdCarrera`, `ArchivoAdjunto`, `NombreAdjunto`, `EstadoRegistro`) VALUES
+(1, 'Juana', 'Lopez', 'LP201005', '', '09888888', '123123123', 'Mejicanos', '22766666', 'F', '', NULL, 'ES', 1, 'Tf8-EoznKqFiYqMq-AfzFkM-0IcW4F8z.png', 'avatar2.png', '1'),
+(2, 'Jose Alberto', 'Castaneda Alarcon', 'CA201010', '', '03743217-3', '', '', '', 'M', '', 2, 'ES', 1, '8ig5uv53on-b1W1DXHhmkoeDCKXcLEPz.png', 'avatar04.png', '1'),
+(3, 'ADmin', 'Admin', NULL, 'AS1010', NULL, NULL, NULL, NULL, 'M', NULL, 1, 'EM', NULL, NULL, NULL, '1'),
+(4, 'Julio Alberto', 'Flores Ayala', NULL, 'FA230000', '89789789', '98789789', 'direccion', '77889922', 'M', 'Asesor de proyectos ', 3, 'EM', NULL, 'XWtxI26xEk9CJPRDJ1l-A-Yg8IvgHkfL.jpg', 'Cover-30-Cosas-que-toda-persona-con-deficit-de-atencion-520x272.jpg', '1');
 
 -- --------------------------------------------------------
 
@@ -334,15 +376,26 @@ CREATE TABLE `proyecto` (
   `IdProyecto` int(11) NOT NULL COMMENT 'Codigo de identificacion del proyecto',
   `NombreProyecto` varchar(150) NOT NULL COMMENT 'Nombre del Proyecto',
   `HorasSolicitadas` int(11) DEFAULT NULL COMMENT 'Horas a realizar',
+  `HorasSocialesXhora` float DEFAULT NULL COMMENT 'Cantidad de horas que le suma al estudiante por cada hora que asistio al servicio social',
   `Ubicacion` varchar(150) NOT NULL COMMENT 'Ubicacion del proyecto',
   `FechaIni` date DEFAULT NULL COMMENT 'Fecha de inicio del proyecto',
   `FechaFin` date DEFAULT NULL COMMENT 'Fecha de finalizacion del proyecto',
   `IdInstitucion` int(11) NOT NULL,
   `IdEstadoProyecto` int(11) NOT NULL,
   `IdPersonaAsesor` int(11) DEFAULT NULL COMMENT 'ID de la tabla personas, del asesor del proyecto',
-  `NumeroPersonas` int(11) NOT NULL COMMENT 'Numero de personas requeridas simultaneamente para realizar el proyecto',
+  `NumeroPersonas` int(11) DEFAULT NULL COMMENT 'Numero de personas requeridas simultaneamente para realizar el proyecto',
+  `ArchivoAdjunto` varchar(150) DEFAULT NULL,
+  `NombreAdjunto` varchar(150) DEFAULT NULL,
   `EstadoRegistro` char(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `proyecto`
+--
+
+INSERT INTO `proyecto` (`IdProyecto`, `NombreProyecto`, `HorasSolicitadas`, `HorasSocialesXhora`, `Ubicacion`, `FechaIni`, `FechaFin`, `IdInstitucion`, `IdEstadoProyecto`, `IdPersonaAsesor`, `NumeroPersonas`, `ArchivoAdjunto`, `NombreAdjunto`, `EstadoRegistro`) VALUES
+(15, 'proy1', 500, 3, 'ubi1', '2016-08-01', '2016-08-31', 1, 1, 4, 4, '4UCsFiNIvEdrNO9HVewdy4FIpVPqQYaV.jpg', 'descarga.jpg', '1'),
+(16, 'Mantenimiento preventivo de Desktops', 500, 2, 'Centro de gobierno', '2016-08-19', '2016-10-27', 2, 1, 4, 10, '87jXQwAg3ZWqWORkz05Wq3ZgfIfsPs9y.jpg', 'descarga (1).jpg', '1');
 
 -- --------------------------------------------------------
 
@@ -369,7 +422,8 @@ CREATE TABLE `universidad` (
 --
 
 INSERT INTO `universidad` (`IdUniversidad`, `Nombre`, `NombreCorto`, `Mision`, `Vision`, `CorreoElectronico`, `Telefono`, `Direccion`, `Url`, `Logo`, `EstadoRegistro`) VALUES
-(1, 'Universidad Evangelica de El Salvador', 'UEES', 'mision', 'vision', 'uees@uees.com', '22009988', 'direccion', 'uees.com', 'logo', '1');
+(1, 'Universidad Evangelica de El Salvador', 'UEES', 'mision', 'vision', 'uees@uees.com', '22009988', 'direccion', 'uees.com', 'logo', '1'),
+(2, 'uiy', 'ui', 'iuy', 'iuy', 'iuy', 'iuy', 'iuy', 'iuy', NULL, '1');
 
 -- --------------------------------------------------------
 
@@ -400,7 +454,8 @@ CREATE TABLE `user_accounts` (
 
 INSERT INTO `user_accounts` (`id`, `login`, `username`, `password_hash`, `auth_key`, `administrator`, `creator`, `creator_ip`, `confirm_token`, `recovery_token`, `blocked_at`, `confirmed_at`, `created_at`, `updated_at`) VALUES
 (1, 'jcastanedaalarcon@gmail.com', 'jcastaneda', '$2y$13$cyTaKC4kw99trKRHt1/JoegESCLcCLY1Uwlya5q0VLSQhKM4YST2W', '123123', 1, -2, 'Local', NULL, NULL, NULL, 1470815537, 1470815537, 1470816036),
-(2, 'mail@mail.com', 'CA201010', '$2y$13$V8EvMsI/OUrPVRMSitK6Du9Yu4HCDqH14nLmrbVeY979VL0/jl3z.', '123123', 0, 1, '127.0.0.1', NULL, NULL, NULL, 1470881021, 1470881021, -1);
+(2, 'mail@mail.com', 'CA201010', '$2y$13$V8EvMsI/OUrPVRMSitK6Du9Yu4HCDqH14nLmrbVeY979VL0/jl3z.', '123123', 0, 1, '127.0.0.1', NULL, NULL, NULL, 1470881021, 1470881021, -1),
+(3, 'smokcecastaneda@gmail.com', 'jflores', '$2y$13$MQM3y9KBZkR4yn8KBTNvdu31aAtt3TdO7qZKUayTRJXqMHCZXqR1O', '123123', 0, 1, '127.0.0.1', NULL, NULL, NULL, 1471568308, 1471568308, -1);
 
 -- --------------------------------------------------------
 
@@ -525,7 +580,9 @@ ALTER TABLE `perfildetalle`
 -- Indices de la tabla `persona`
 --
 ALTER TABLE `persona`
-  ADD PRIMARY KEY (`IdPersona`);
+  ADD PRIMARY KEY (`IdPersona`),
+  ADD KEY `fk_persona_usuario` (`UserId`),
+  ADD KEY `fk_persona_carrera` (`IdCarrera`);
 
 --
 -- Indices de la tabla `proyecto`
@@ -533,7 +590,8 @@ ALTER TABLE `persona`
 ALTER TABLE `proyecto`
   ADD PRIMARY KEY (`IdProyecto`),
   ADD KEY `fk_proyecto_institucion1_idx` (`IdInstitucion`),
-  ADD KEY `fk_proyecto_estadosProyecto1_idx` (`IdEstadoProyecto`);
+  ADD KEY `fk_proyecto_estadosProyecto1_idx` (`IdEstadoProyecto`),
+  ADD KEY `fk_proyecto_personaasesor` (`IdPersonaAsesor`);
 
 --
 -- Indices de la tabla `universidad`
@@ -564,7 +622,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `carrera`
 --
 ALTER TABLE `carrera`
-  MODIFY `IdCarrera` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo identificador de la carrera';
+  MODIFY `IdCarrera` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo identificador de la carrera', AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT de la tabla `comunicacion`
 --
@@ -604,22 +662,22 @@ ALTER TABLE `perfil`
 -- AUTO_INCREMENT de la tabla `persona`
 --
 ALTER TABLE `persona`
-  MODIFY `IdPersona` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo de identificacion de la persona o estudiante';
+  MODIFY `IdPersona` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo de identificacion de la persona o estudiante', AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT de la tabla `proyecto`
 --
 ALTER TABLE `proyecto`
-  MODIFY `IdProyecto` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo de identificacion del proyecto';
+  MODIFY `IdProyecto` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo de identificacion del proyecto', AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT de la tabla `universidad`
 --
 ALTER TABLE `universidad`
-  MODIFY `IdUniversidad` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo Identificador de la universidad', AUTO_INCREMENT=2;
+  MODIFY `IdUniversidad` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Codigo Identificador de la universidad', AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT de la tabla `user_accounts`
 --
 ALTER TABLE `user_accounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT de la tabla `usuario`
 --
@@ -681,11 +739,19 @@ ALTER TABLE `perfildetalle`
   ADD CONSTRAINT `fk_perfildetalle_perfil1` FOREIGN KEY (`IdPerfil`) REFERENCES `perfil` (`IdPerfil`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
+-- Filtros para la tabla `persona`
+--
+ALTER TABLE `persona`
+  ADD CONSTRAINT `persona_ibfk_1` FOREIGN KEY (`UserId`) REFERENCES `user_accounts` (`id`),
+  ADD CONSTRAINT `persona_ibfk_2` FOREIGN KEY (`IdCarrera`) REFERENCES `carrera` (`IdCarrera`);
+
+--
 -- Filtros para la tabla `proyecto`
 --
 ALTER TABLE `proyecto`
   ADD CONSTRAINT `fk_proyecto_estadosProyecto1` FOREIGN KEY (`IdEstadoProyecto`) REFERENCES `estadosProyecto` (`IdEstadoProyecto`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_proyecto_institucion1` FOREIGN KEY (`IdInstitucion`) REFERENCES `institucion` (`IdInstitucion`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_proyecto_institucion1` FOREIGN KEY (`IdInstitucion`) REFERENCES `institucion` (`IdInstitucion`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `proyecto_ibfk_1` FOREIGN KEY (`IdPersonaAsesor`) REFERENCES `persona` (`IdPersona`);
 
 --
 -- Filtros para la tabla `usuario`

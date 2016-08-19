@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 use app\helpers\CrudHelper;
 use app\modules\catalogs\models\UserAccounts;
 use kartik\widgets\FileInput;
-$usuarios = ArrayHelper::map(UserAccounts::find()->where(['administrator' => '0'])->all(), 'id', 'username');
+$usuarios = ArrayHelper::map(UserAccounts::find()->all(), 'id', 'username');
 
 /* @var $model app\modules\catalogs\models\Persona */
 /* @var $form yii\widgets\ActiveForm */

@@ -9,6 +9,8 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
+use \yii\web\Response;
+use yii\helpers\Html;
 
 /**
  * ProyectoController implements the CRUD actions for Proyecto model.
@@ -45,16 +47,49 @@ class ProyectoController extends Controller
         ]);
     }
 
+   /**
+     * Lists all Proyecto models.
+     * @return mixed
+     */
+    public function actionConsulta()
+    {    
+        $searchModel = new ProyectoSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, ['EstadoRegistro' => '1', 'IdEstadoProyecto'=> '1']);
+
+        return $this->render('consulta', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }    
+    
+    /**
+     * Displays a single Proyecto model.
+     * @param integer $id
+     * @return mixed
+     */
     /**
      * Displays a single Proyecto model.
      * @param integer $id
      * @return mixed
      */
     public function actionView($id)
-    {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+    {   
+        $request = Yii::$app->request;
+        if($request->isAjax){
+            Yii::$app->response->format = Response::FORMAT_JSON;
+            return [
+                    'title'=> "Proyecto #".$id,
+                    'content'=>$this->renderAjax('view', [
+                        'model' => $this->findModel($id),
+                    ]),
+                    'footer'=> Html::button('Close',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).
+                            Html::a('Edit',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])
+                ];    
+        }else{
+            return $this->render('view', [
+                'model' => $this->findModel($id),
+            ]);
+        }
     }
 
     /**

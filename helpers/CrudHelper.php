@@ -42,7 +42,7 @@ class CrudHelper
     
     public static function getSexo() 
     {
-        return array (self::MASCULINO=>'Estudiante', self::FEMENINO=>'Empleado');
+        return array (self::MASCULINO=>'Masculino', self::FEMENINO=>'Femenino');
     }
      
     public static function getSexoLabel($sexo) {
